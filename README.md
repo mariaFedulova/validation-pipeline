@@ -12,11 +12,7 @@ This project explores validation strategies and model tuning techniques for ensu
 - Evaluation of methods by speed, metric stability, and model quality
 
 ## Results
-- Implemented custom functions for random and time-based data splits into train/validation/test sets.
-- Built K-Fold, Grouped K-Fold, Stratified K-Fold, and Time Series cross-validation from scratch and compared them with `sklearn` equivalents.
-- Applied Lasso regularization, correlation filtering, permutation importance, and SHAP to identify the most informative features.
-- Compared Grid Search, Randomized Search, and Optuna-based Bayesian optimization for tuning ElasticNet hyperparameters.
-- Evaluated all methods in terms of speed, metric stability, and overall model quality.
+Custom implementations of all splitting and cross-validation methods matched scikit-learn outputs exactly, confirming correctness. Feature selection and hyperparameter tuning experiments demonstrated that Optuna achieved optimal ElasticNet performance with fewer iterations. Time series cross-validation provided more realistic performance estimates than standard K-Fold due to temporal structure in the data.
 
 ## Contents
 - `data/` — raw datasets.
