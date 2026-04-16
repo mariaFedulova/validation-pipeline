@@ -15,5 +15,5 @@ This project explores validation strategies and model tuning techniques for ensu
 Custom implementations of all splitting and cross-validation methods matched scikit-learn outputs exactly, confirming correctness. Feature selection and hyperparameter tuning experiments demonstrated that Optuna achieved optimal ElasticNet performance with fewer iterations. Time series cross-validation provided more realistic performance estimates than standard K-Fold due to temporal structure in the data.
 
 ## Contents
-- `data/` — raw datasets.
-- `validation.ipynb` — Jupyter Notebook with completed tasks and conclusions.
+- `data/` - datasets.
+- `validation.ipynb` - Jupyter Notebook with completed tasks and conclusions.
